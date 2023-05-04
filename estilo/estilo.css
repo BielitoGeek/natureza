@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root {
+    --cor1: #AD0024;
+    --cor2: #FF1949;
+    --cor3: #FA0033;
+    --cor4: #00AD1D;
+    --cor5: #08FA30;
+
+    --fonte1: 'Great Vibes', cursive;
+    --fonte2: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--cor4), var(--cor5));
+    background-color: var(--cor4);
+}
+
+header {
+    background-image: linear-gradient(to right, var(--cor3), var(--cor1));
+    color: black;
+    text-align: center;
+    font-family: var(--fonte1);
+    font-size: 2em;
+    width: 50em;
+    padding: 10px;
+    margin: 16px auto;
+    border-radius: 0px 10px;
+}
+
+body > header > h1 {
+    TESTE;
+}
+
+header > q {
+    font-size: 1.3em;
+}
+
+header > figcaption {
+    font-size: 1.3em;
+    display: inline;
+}
+
+body > main {
+    width: 80em;
+    margin: auto;
+    border: 1px solid black;
+    height: 800px;
+}
+
+.posicao_titulo_artigo {
+    display: flex;
+    width: 200px;
+    margin: 0px 0px 0px 1000px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.posicao_texto_artigo {
+    display: flex;
+    max-width: 500px;
+    margin: 0px 0px 0px 500px;
+    border: 1px solid black;
+}
+
+.posicao_imagem_artigo {
+    display: flex;
+    margin: -98px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
